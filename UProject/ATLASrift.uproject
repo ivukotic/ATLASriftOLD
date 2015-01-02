@@ -3,6 +3,13 @@
 	"EngineAssociation": "4.6",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "ATLASrift",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"TargetPlatforms": [
 		"HTML5",
 		"IOS",

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ATLASrift.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{AB065FCA-3431-4762-AEF4-23A7C9F2B6B9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ATLASrift.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ATLASriftEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{BF1BAE00-EC10-4739-9380-0395CDBFD3B3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ATLASrift">
+			<UniqueIdentifier>{62C639DF-C494-42C4-BF7F-D4F772F1833F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ATLASrift\ATLASrift.Build.cs">
+			<Filter>Source\ATLASrift</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ATLASrift\ATLASrift.cpp">
+			<Filter>Source\ATLASrift</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ATLASrift\ATLASrift.h">
+			<Filter>Source\ATLASrift</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ATLASrift\Event.cpp">
+			<Filter>Source\ATLASrift</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ATLASrift\Event.h">
+			<Filter>Source\ATLASrift</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ATLASrift\Track.cpp">
+			<Filter>Source\ATLASrift</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ATLASrift\Track.h">
+			<Filter>Source\ATLASrift</Filter>
+		</ClInclude >
+		<Filter Include="Source\ATLASrift\Resources">
+			<UniqueIdentifier>{0E5CD4D5-34F0-44E5-B39E-4FD20A234221}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\ATLASrift\Resources\Windows">
+			<UniqueIdentifier>{FDB52BE5-9E0E-456B-AF77-3E408357742E}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\ATLASrift\Resources\Windows\ATLASrift.rc">
+			<Filter>Source\ATLASrift\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

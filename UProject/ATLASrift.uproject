@@ -11,12 +11,9 @@
 		}
 	],
 	"TargetPlatforms": [
-		"HTML5",
 		"IOS",
-		"LinuxNoEditor",
 		"MacNoEditor",
 		"WindowsNoEditor",
-		"XboxOne",
-		"PS4"
+		"XboxOne"
 	]
 }

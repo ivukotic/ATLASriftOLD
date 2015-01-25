@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\ATLASrift.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{AB065FCA-3431-4762-AEF4-23A7C9F2B6B9}</UniqueIdentifier>
+			<UniqueIdentifier>{CAF4FC30-5C8B-4126-90D6-D25A996ADD67}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ATLASrift.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{BF1BAE00-EC10-4739-9380-0395CDBFD3B3}</UniqueIdentifier>
+			<UniqueIdentifier>{28C81CD6-4DF1-4262-BE7D-9591651945C2}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ATLASrift">
-			<UniqueIdentifier>{62C639DF-C494-42C4-BF7F-D4F772F1833F}</UniqueIdentifier>
+			<UniqueIdentifier>{6E79F03A-C720-4CBF-894D-9337DD453D05}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ATLASrift\ATLASrift.Build.cs">
 			<Filter>Source\ATLASrift</Filter>
@@ -45,6 +45,12 @@
 		<ClInclude Include="..\..\Source\ATLASrift\Event.h">
 			<Filter>Source\ATLASrift</Filter>
 		</ClInclude >
+		<ClCompile Include="..\..\Source\ATLASrift\My3Dmouse.cpp">
+			<Filter>Source\ATLASrift</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ATLASrift\My3Dmouse.h">
+			<Filter>Source\ATLASrift</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\ATLASrift\Track.cpp">
 			<Filter>Source\ATLASrift</Filter>
 		</ClCompile >
@@ -52,10 +58,10 @@
 			<Filter>Source\ATLASrift</Filter>
 		</ClInclude >
 		<Filter Include="Source\ATLASrift\Resources">
-			<UniqueIdentifier>{0E5CD4D5-34F0-44E5-B39E-4FD20A234221}</UniqueIdentifier>
+			<UniqueIdentifier>{41CC81CE-0267-49EC-876C-AA35470B60AD}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Source\ATLASrift\Resources\Windows">
-			<UniqueIdentifier>{FDB52BE5-9E0E-456B-AF77-3E408357742E}</UniqueIdentifier>
+			<UniqueIdentifier>{F072EEAA-D7E0-43DD-B386-3FBE4F2B7E30}</UniqueIdentifier>
 		</Filter>
 		<ResourceCompile Include="..\..\Source\ATLASrift\Resources\Windows\ATLASrift.rc">
 			<Filter>Source\ATLASrift\Resources\Windows</Filter>

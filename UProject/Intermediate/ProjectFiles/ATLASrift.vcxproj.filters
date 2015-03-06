@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\ATLASrift.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{CAF4FC30-5C8B-4126-90D6-D25A996ADD67}</UniqueIdentifier>
+			<UniqueIdentifier>{0AC3B075-34BA-48F0-81FA-6163B192D200}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ATLASrift.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{28C81CD6-4DF1-4262-BE7D-9591651945C2}</UniqueIdentifier>
+			<UniqueIdentifier>{BBF72BF9-6DA1-4EB7-9C3C-AFB387A5B291}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ATLASrift">
-			<UniqueIdentifier>{6E79F03A-C720-4CBF-894D-9337DD453D05}</UniqueIdentifier>
+			<UniqueIdentifier>{AA6108C6-0F2A-458E-BDAB-C202CB18A3D0}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ATLASrift\ATLASrift.Build.cs">
 			<Filter>Source\ATLASrift</Filter>
@@ -58,10 +58,10 @@
 			<Filter>Source\ATLASrift</Filter>
 		</ClInclude >
 		<Filter Include="Source\ATLASrift\Resources">
-			<UniqueIdentifier>{41CC81CE-0267-49EC-876C-AA35470B60AD}</UniqueIdentifier>
+			<UniqueIdentifier>{FEBABA5D-56AB-4DC3-ADF5-A665969ED423}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Source\ATLASrift\Resources\Windows">
-			<UniqueIdentifier>{F072EEAA-D7E0-43DD-B386-3FBE4F2B7E30}</UniqueIdentifier>
+			<UniqueIdentifier>{68A66A34-9196-4C74-A73E-1B698EE91956}</UniqueIdentifier>
 		</Filter>
 		<ResourceCompile Include="..\..\Source\ATLASrift\Resources\Windows\ATLASrift.rc">
 			<Filter>Source\ATLASrift\Resources\Windows</Filter>

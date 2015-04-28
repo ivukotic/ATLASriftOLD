@@ -12,16 +12,17 @@ AMy3DMouse::AMy3DMouse(const FObjectInitializer& ObjectInitializer) : Super(Obje
 void AMy3DMouse::BeginPlay()
 {
 	Super::BeginPlay();
-	init();
-	//DispatchLoopNT();
+	// init();  //turning it off. don't want it here.
 }
 
 int AMy3DMouse::init()
 {
+	int  res = 0;            /* SbInits result..if>0 it worked, if=0 it didnt work   */
+
+#if PLATFORM_WINDOWS
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("Hello MOUSE!"));
 
 	hWndMain = GetActiveWindow();
-	int  res = 0;            /* SbInits result..if>0 it worked, if=0 it didnt work   */
 
 	res = SbInit();
 
@@ -31,12 +32,16 @@ int AMy3DMouse::init()
 		printf("Sorry - No supported 3Dconnexion device available.\n");
 		ExitProcess(1);                /* exit program */
 	}
+#endif
 
 	return(res);
 }
 
 int AMy3DMouse::SbInit()
 {
+
+#if PLATFORM_WINDOWS
+
 	_tcscpy(devicename, _T(""));
 	int res;                             /* result of SiOpen, to be returned  */
 	SiOpenData oData;                    /* OS Independent data to open ball  */
@@ -80,6 +85,8 @@ int AMy3DMouse::SbInit()
 		res = 1;        /* opened device succesfully */
 		return res;
 	}
+
+#endif
 	return(0);
 }
 
@@ -92,6 +99,7 @@ int AMy3DMouse::SbInit()
 
 bool AMy3DMouse::CheckMessages()
 {
+#if PLATFORM_WINDOWS
 	if (PeekMessage(&msg, NULL, 0, 0, PM_REMOVE))
 	{
 
@@ -132,7 +140,7 @@ bool AMy3DMouse::CheckMessages()
 		TranslateMessage(&msg);
 		DispatchMessage(&msg);
 	}
-
+#endif
 	return false;
 }
 

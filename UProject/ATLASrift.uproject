@@ -11,9 +11,9 @@
 		}
 	],
 	"TargetPlatforms": [
-		"IOS",
-		"MacNoEditor",
 		"WindowsNoEditor",
-		"XboxOne"
+		"XboxOne",
+		"IOS",
+		"MacNoEditor"
 	]
 }

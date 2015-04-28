@@ -33,7 +33,8 @@ public class ATLASrift : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
-        LoadConnexion3D(Target);
+       
+            LoadConnexion3D(Target);
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });

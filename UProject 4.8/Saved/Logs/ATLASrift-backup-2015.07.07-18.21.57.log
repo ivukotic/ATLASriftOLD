@@ -1,0 +1,500 @@
+﻿[2015.07.07-11.19.11:813][  0]Log file open, 07/07/15 13:19:11
+[2015.07.07-11.19.11:813][  0]LogInit:Display: Running engine for game: ATLASrift
+[2015.07.07-11.19.11:813][  0]LogInit:Display: RandInit(1821348113) SRandInit(1821348114).
+[2015.07.07-11.19.11:813][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.07-11.19.11:813][  0]LogStats: Stats thread started
+[2015.07.07-11.19.11:813][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.07-11.19.11:813][  0]LogInit: API Version: 2579680
+[2015.07.07-11.19.11:813][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
+[2015.07.07-11.19.11:813][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.07-11.19.11:813][  0]LogInit: Build Configuration: Development
+[2015.07.07-11.19.11:813][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.07-11.19.11:813][  0]LogInit: Command line:  
+[2015.07.07-11.19.11:813][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.07-11.19.11:813][  0]LogInit: Rocket: 1
+[2015.07.07-11.19.11:838][  0]LogInit: Using libcurl 7.41.0
+[2015.07.07-11.19.11:838][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.07-11.19.11:838][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.07-11.19.11:838][  0]LogInit:  - other features:
+[2015.07.07-11.19.11:838][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.07-11.19.11:838][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.07-11.19.11:838][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.07-11.19.11:838][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.07-11.19.11:838][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.07-11.19.11:838][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.07-11.19.11:838][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.07-11.19.11:838][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.07-11.19.11:838][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.07-11.19.11:838][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.07-11.19.11:852][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.07-11.19.11:875][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.07-11.19.11:883][  0]LogInit: Object subsystem initialized
+[2015.07.07-11.19.11:884][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.07.07-11.19.11:884][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.07-11.19.11:884][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2015.07.07-11.19.11:884][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.07-11.19.11:884][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.07-11.19.11:895][  0]LogInit: Computer: ILIJAMSI
+[2015.07.07-11.19.11:895][  0]LogInit: User: Ilija
+[2015.07.07-11.19.11:895][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.07-11.19.11:895][  0]LogInit: High frequency timer resolution =2.435775 MHz
+[2015.07.07-11.19.11:895][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.07.07-11.19.11:895][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.07-11.19.11:895][  0]LogMemory: Process Physical Memory: 48.71 MB used, 48.71 MB peak
+[2015.07.07-11.19.11:895][  0]LogMemory: Process Virtual Memory: 22.32 MB used, 22.32 MB peak
+[2015.07.07-11.19.11:895][  0]LogMemory: Physical Memory: 2596.01 MB used, 16336.84 MB total
+[2015.07.07-11.19.11:895][  0]LogMemory: Virtual Memory: 295.75 MB used, 134217728.00 MB total
+[2015.07.07-11.19.11:968][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.07-11.19.12:226][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.07-11.19.12:650][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M (Feature Level 11_0)
+[2015.07.07-11.19.12:650][  0]LogD3D11RHI: Adapter has 8023MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 1 output[s]
+[2015.07.07-11.19.12:654][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.07-11.19.12:654][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.07-11.19.12:654][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.07-11.19.12:662][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.07-11.19.12:692][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.07-11.19.13:273][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.07-11.19.15:022][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.07-11.19.15:048][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.07-11.19.15:086][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.07-11.19.15:114][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.07-11.19.15:141][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.07-11.19.15:159][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.07-11.19.15:178][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.07-11.19.15:196][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.07-11.19.15:215][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.07-11.19.15:234][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.07-11.19.15:253][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.07-11.19.15:272][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.07-11.19.15:343][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.07-11.19.15:361][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.07-11.19.15:381][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.07-11.19.15:402][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.07-11.19.15:402][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.07-11.19.15:723][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.07-11.19.15:911][  0]LogDerivedDataCache: Loaded boot cache 0.19s 53MB C:/Users/Ilija/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.07-11.19.15:911][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ilija/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.07-11.19.15:911][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.07-11.19.15:911][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.07-11.19.15:911][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.07-11.19.15:911][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.07-11.19.16:098][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.07-11.19.16:110][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ilija/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.07-11.19.16:544][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.07-11.19.16:647][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.07-11.19.16:648][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.07-11.19.16:684][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.07-11.19.16:684][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.07-11.19.17:261][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.07-11.19.19:438][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.07-11.19.19:919][  0]SourceControl: Info Source control is disabled
+[2015.07.07-11.19.19:943][  0]SourceControl: Info Source control is disabled
+[2015.07.07-11.19.19:961][  0]SourceControl: Info Source control is disabled
+[2015.07.07-11.19.19:980][  0]SourceControl: Info Source control is disabled
+[2015.07.07-11.19.20:319][  0]LogObj: 26286 objects as part of root set at end of initial load.
+[2015.07.07-11.19.20:319][  0]LogUObjectAllocator: 5413376 out of 0 bytes used by permanent object pool.
+[2015.07.07-11.19.20:415][  0]LogEngine: Initializing Engine...
+[2015.07.07-11.19.20:418][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.07-11.19.20:451][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
+[2015.07.07-11.19.20:639][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.07-11.19.20:644][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.07-11.19.20:741][  0]LogInit: FAudioDevice initialized.
+[2015.07.07-11.19.20:826][  0]LogDerivedDataCache: Saved boot cache 0.08s 53MB C:/Users/Ilija/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.07-11.19.20:832][  0]LogInit: Texture streaming: Disabled
+[2015.07.07-11.19.20:870][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.07-11.19.20:870][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.07-11.19.20:870][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b119772443275f0bba10d896a7f21aad|0d0c0c17db8d4debbe0ee04300f3aac1|fd72ce22-a9a9-4363-8f94-5aa8b51f1e00
+[2015.07.07-11.19.20:870][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.07-11.19.21:200][  0]LogInit: Transaction tracking system initialized
+[2015.07.07-11.19.21:428][  0]BlueprintLog: New page: Editor Load
+[2015.07.07-11.19.21:470][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.07.07-11.19.21:470][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.07-11.19.22:535][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.07-11.19.22:536][  0]LogConsoleResponse:Display: 
+[2015.07.07-11.19.22:677][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.07-11.19.22:914][  0]SourceControl: Info Source control is disabled
+[2015.07.07-11.19.22:915][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/TheMainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.07-11.19.22:917][  0]LightingResults: New page: Lighting Build
+[2015.07.07-11.19.22:933][  0]MapCheck: New page: Map Check
+[2015.07.07-11.19.22:933][  0]LightingResults: New page: Lighting Build
+[2015.07.07-11.19.22:946][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003AC7F26F20
+[2015.07.07-11.19.30:585][  0]LogAIModule: Creating AISystem for world TheMainMap
+[2015.07.07-11.19.30:701][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.07-11.19.30:704][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.07-11.19.30:865][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 160.931ms to complete.
+[2015.07.07-11.19.30:865][  0]LogFileHelpers: Loading map 'TheMainMap' took 7.950
+[2015.07.07-11.19.30:953][  0]LogCollectionManager: Loaded 0 collections in 0.002797 seconds
+[2015.07.07-11.19.30:964][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 1794 classes and 303 folders.
+[2015.07.07-11.19.31:024][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2015.07.07-11.19.31:093][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2015.07.07-11.19.31:159][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2015.07.07-11.19.31:238][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.07-11.19.31:249][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.07-11.19.31:272][  0]LogLoad: Full Startup: 21.62 seconds (BP compile: 1.23 seconds)
+[2015.07.07-11.19.31:457][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.07-11.19.31:706][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.07-11.19.31:914][  0]LogRenderer: Reallocating scene render targets to support 1064x928 (Frame:2).
+[2015.07.07-11.19.32:482][  9]LogAssetRegistry: Asset discovery search completed in 11.0239 seconds
+[2015.07.07-11.20.16:906][338]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.07-11.20.16:998][338]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.07-11.27.21:682][288]BlueprintLog: New page: Compile TheMainMap
+[2015.07.07-11.27.21:709][288]LogBlueprint:Error: [compiler TheMainMap] Error Event signature error:  Function cannot be used in delegate.  TimeLineDispatch (IlijaFlyingCharacter_BP) 
+[2015.07.07-11.27.22:150][288]LogBlueprint:Warning: [compiler TheMainMap] Warning [0492.50] Compile of TheMainMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 467 ms]
+[2015.07.07-11.27.22:150][288]BlueprintEditorCompileResults:Error: Error Event signature error:  Function cannot be used in delegate.  TimeLineDispatch (IlijaFlyingCharacter_BP) 
+[2015.07.07-11.27.22:150][288]BlueprintEditorCompileResults:Warning: Warning [0492.50] Compile of TheMainMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 467 ms]
+[2015.07.07-11.27.42:437][495]BlueprintLog: New page: Compile TheMainMap
+[2015.07.07-11.27.42:461][495]LogBlueprint:Error: [compiler TheMainMap] Error Event Dispatcher pin is not connected  Bind Event to TimeLineDispatch 
+[2015.07.07-11.27.42:588][495]LogBlueprint:Warning: [compiler TheMainMap] Warning [0512.94] Compile of TheMainMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 151 ms]
+[2015.07.07-11.27.42:588][495]BlueprintEditorCompileResults:Error: Error Event Dispatcher pin is not connected  Bind Event to TimeLineDispatch 
+[2015.07.07-11.27.42:588][495]BlueprintEditorCompileResults:Warning: Warning [0512.94] Compile of TheMainMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 151 ms]
+[2015.07.07-11.29.38:774][364]LogBlueprint:Error: [compiler TheMainMap] Error Event Dispatcher pin is not connected  Bind Event to TimeLineDispatch 
+[2015.07.07-11.29.38:857][364]LogBlueprint:Warning: [compiler TheMainMap] Warning [0629.20] Compile of TheMainMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 103 ms]
+[2015.07.07-11.29.38:857][364]LogBlueprint:Warning: [compiler TheMainMap] Warning [0629.21] Compile of TheMainMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.07.07-11.29.38:858][364]LogBlueprint:Warning: [compiler TheMainMap] Warning [0629.21] Compile of TheMainMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.07.07-11.29.38:858][364]LogBlueprint:Warning: [compiler TheMainMap] Warning [0629.21] Compile of TheMainMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.07.07-11.29.38:869][364]LogBlueprint:Warning: [compiler TheMainMap] Warning [0629.22] Compile of TheMainMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 11 ms]
+[2015.07.07-11.29.38:870][364]LogBlueprint:Warning: [compiler TheMainMap] Warning [0629.22] Compile of TheMainMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.07.07-11.29.38:957][364]LogSavePackage: Save=208.628464ms
+[2015.07.07-11.29.38:957][364]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/TheMainMap_Auto11E4BC2D0481AA34F5AD7B4870E53E284.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/TheMainMap_Auto1.umap'
+[2015.07.07-11.29.38:962][364]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheMainMap' took 0.284
+[2015.07.07-11.29.38:962][364]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.284
+[2015.07.07-11.31.47:005][973]BlueprintLog: New page: Compile TheMainMap
+[2015.07.07-11.31.47:030][973]LogBlueprint:Error: [compiler TheMainMap] Error No delegate function name  Create Event 
+[2015.07.07-11.31.47:032][973]LogBlueprint:Error: [compiler TheMainMap] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  Event  due to a bad or unknown type (Delegate)
+[2015.07.07-11.31.47:032][973]LogBlueprint:Error: [compiler TheMainMap] Error Event signature error:  No function name.  Create Event 
+[2015.07.07-11.31.47:167][973]LogBlueprint:Warning: [compiler TheMainMap] Warning [0757.52] Compile of TheMainMap failed. 3 Fatal Issue(s) 0 Warning(s) [in 161 ms]
+[2015.07.07-11.31.47:167][973]BlueprintEditorCompileResults:Error: Error No delegate function name  Create Event 
+[2015.07.07-11.31.47:167][973]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  Event  due to a bad or unknown type (Delegate)
+[2015.07.07-11.31.47:167][973]BlueprintEditorCompileResults:Error: Error Event signature error:  No function name.  Create Event 
+[2015.07.07-11.31.47:167][973]BlueprintEditorCompileResults:Warning: Warning [0757.52] Compile of TheMainMap failed. 3 Fatal Issue(s) 0 Warning(s) [in 161 ms]
+[2015.07.07-11.32.23:892][174]BlueprintLog: New page: Compile TheMainMap
+[2015.07.07-11.32.23:917][174]LogBlueprint:Error: [compiler TheMainMap] Error No delegate function name  Create Event 
+[2015.07.07-11.32.23:917][174]LogBlueprint:Error: [compiler TheMainMap] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  Event  due to a bad or unknown type (Delegate)
+[2015.07.07-11.32.23:918][174]LogBlueprint:Error: [compiler TheMainMap] Error Event signature error:  No function name.  Create Event 
+[2015.07.07-11.32.24:059][174]LogBlueprint:Warning: [compiler TheMainMap] Warning [0794.41] Compile of TheMainMap failed. 3 Fatal Issue(s) 0 Warning(s) [in 166 ms]
+[2015.07.07-11.32.24:059][174]BlueprintEditorCompileResults:Error: Error No delegate function name  Create Event 
+[2015.07.07-11.32.24:059][174]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  Event  due to a bad or unknown type (Delegate)
+[2015.07.07-11.32.24:059][174]BlueprintEditorCompileResults:Error: Error Event signature error:  No function name.  Create Event 
+[2015.07.07-11.32.24:059][174]BlueprintEditorCompileResults:Warning: Warning [0794.41] Compile of TheMainMap failed. 3 Fatal Issue(s) 0 Warning(s) [in 166 ms]
+[2015.07.07-11.33.07:265][709]BlueprintLog: New page: Compile TheMainMap
+[2015.07.07-11.33.07:377][709]BlueprintEditorCompileResults: Info [0837.73] Compile of TheMainMap successful! [in 112 ms]
+[2015.07.07-11.33.14:488][109]LogSavePackage: Save=163.057755ms
+[2015.07.07-11.33.14:488][109]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMapFEBF065A4CC5323A3A8836B04AFD303D.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.07-11.37.02:507][601]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.07-11.38.03:655][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.07-11.38.04:084][219]LogSavePackage: Save=401.136810ms
+[2015.07.07-11.38.04:084][219]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BP8BB90F604B7A08A84A4AD8BAC328962F.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.07-11.38.04:882][266]BlueprintLog: New page: Compile IlijaFlyingCharacter_BP
+[2015.07.07-11.38.05:138][266]LogUObjectGlobals:Warning: Guid is in use by SphereComponent /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.IlijaFlyingCharacter_BP_C_3.CollisionComponent0 and SphereComponent /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.IlijaFlyingCharacter_BP_C_0.CollisionComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.07.07-11.38.05:138][266]LogUObjectGlobals:Warning: Guid is in use by FloatingPawnMovement /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.IlijaFlyingCharacter_BP_C_3.MovementComponent0 and FloatingPawnMovement /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.IlijaFlyingCharacter_BP_C_0.MovementComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.07.07-11.38.05:138][266]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.IlijaFlyingCharacter_BP_C_3.MeshComponent0 and StaticMeshComponent /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.IlijaFlyingCharacter_BP_C_0.MeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.07.07-11.38.05:294][266]BlueprintEditorCompileResults: Info [1135.64] Compile of IlijaFlyingCharacter_BP successful! [in 412 ms]
+[2015.07.07-11.39.13:584][335]BlueprintLog: New page: Compile TheMainMap
+[2015.07.07-11.39.13:693][335]BlueprintEditorCompileResults: Info [1204.04] Compile of TheMainMap successful! [in 109 ms]
+[2015.07.07-11.39.20:503][715]LogSavePackage: Save=158.847183ms
+[2015.07.07-11.39.20:503][715]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMap1D7804B847F1E8E018C464B42569CDDF.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.07-11.39.45:650][935]LogSavePackage: Save=231.962311ms
+[2015.07.07-11.39.45:650][935]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/TheMainMap_Auto2EB8B190246F67EEC4579B1A439006829.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/TheMainMap_Auto2.umap'
+[2015.07.07-11.39.45:655][935]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheMainMap' took 0.332
+[2015.07.07-11.39.45:655][935]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.332
+[2015.07.07-11.47.03:831][548]LogSavePackage: Save=160.412186ms
+[2015.07.07-11.47.03:831][548]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMap2567B13149F8FBA67B18079D6F40BF27.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.07-11.49.46:949][271]LogSavePackage: Save=325.261566ms
+[2015.07.07-11.49.46:949][271]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/TheMainMap_Auto3B68766E2499EE4CCCE70E6B51B6E1F50.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/TheMainMap_Auto3.umap'
+[2015.07.07-11.49.46:957][271]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheMainMap' took 0.466
+[2015.07.07-11.49.46:957][271]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.466
+[2015.07.07-11.52.19:607][ 65]BlueprintLog: New page: Compile TheMainMap
+[2015.07.07-11.52.19:717][ 65]BlueprintEditorCompileResults: Info [1990.06] Compile of TheMainMap successful! [in 110 ms]
+[2015.07.07-11.52.28:908][913]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.07-11.52.51:283][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/Events/EventBP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/BPs/Events/EventBP.uasset" SILENT=true
+[2015.07.07-11.52.51:314][861]LogSavePackage: Save=8.786116ms
+[2015.07.07-11.52.51:314][861]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/EventBP117527AC48E99EA693AB10A9DFEE4CAD.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/BPs/Events/EventBP.uasset'
+[2015.07.07-11.52.52:169][934]BlueprintLog: New page: Compile EventBP
+[2015.07.07-11.52.52:305][934]BlueprintEditorCompileResults: Info [2022.65] Compile of EventBP successful! [in 136 ms]
+[2015.07.07-11.57.00:193][255]BlueprintLog: New page: Compile IlijaFlyingCharacter_BP
+[2015.07.07-11.57.00:426][255]LogUObjectGlobals:Warning: Guid is in use by SphereComponent /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.IlijaFlyingCharacter_BP_C_0.CollisionComponent0 and SphereComponent /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.IlijaFlyingCharacter_BP_C_1.CollisionComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.07.07-11.57.00:426][255]LogUObjectGlobals:Warning: Guid is in use by FloatingPawnMovement /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.IlijaFlyingCharacter_BP_C_0.MovementComponent0 and FloatingPawnMovement /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.IlijaFlyingCharacter_BP_C_1.MovementComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.07.07-11.57.00:427][255]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.IlijaFlyingCharacter_BP_C_0.MeshComponent0 and StaticMeshComponent /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.IlijaFlyingCharacter_BP_C_1.MeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.07.07-11.57.00:591][255]BlueprintEditorCompileResults: Info [2270.94] Compile of IlijaFlyingCharacter_BP successful! [in 397 ms]
+[2015.07.07-11.57.00:868][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.07-11.57.01:296][271]LogSavePackage: Save=406.364288ms
+[2015.07.07-11.57.01:296][271]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BP439E5D65453FC768E8EA2C983019A9B4.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.07-11.57.03:126][426]BlueprintLog: New page: Compile TheMainMap
+[2015.07.07-11.57.03:243][426]BlueprintEditorCompileResults: Info [2273.59] Compile of TheMainMap successful! [in 116 ms]
+[2015.07.07-11.57.53:708][689]BlueprintLog: New page: Compile TheMainMap
+[2015.07.07-11.57.53:837][689]BlueprintEditorCompileResults: Info [2324.18] Compile of TheMainMap successful! [in 128 ms]
+[2015.07.07-11.58.15:031][150]LogSavePackage: Save=227.562485ms
+[2015.07.07-11.58.15:031][150]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMap17BAA9154B331955F3EAE4B0641A03C5.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.07-11.59.48:033][666]LogSavePackage: Save=185.869385ms
+[2015.07.07-11.59.48:033][666]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/TheMainMap_Auto44F9870AD4EF88AE109F3F0A57E533E86.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/TheMainMap_Auto4.umap'
+[2015.07.07-11.59.48:038][666]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheMainMap' took 0.268
+[2015.07.07-11.59.48:038][666]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.268
+[2015.07.07-12.07.30:725][255]LogSavePackage: Save=178.429459ms
+[2015.07.07-12.07.30:725][255]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMap3932A552468E0676965AED99681B1A0A.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.07-12.09.49:623][817]LogSavePackage: Save=404.612915ms
+[2015.07.07-12.09.49:623][817]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/TheMainMap_Auto5490AEE08403BFEDCADD5EABF8823E8C5.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/TheMainMap_Auto5.umap'
+[2015.07.07-12.09.49:633][817]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheMainMap' took 0.673
+[2015.07.07-12.09.49:633][817]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.673
+[2015.07.07-12.29.09:068][229]LogRenderer: Reallocating scene render targets to support 1064x968 (Frame:133665).
+[2015.07.07-12.35.46:177][581]BlueprintLog: New page: Compile TheMainMap
+[2015.07.07-12.35.46:202][581]LogBlueprint:Error: [compiler TheMainMap] Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2015.07.07-12.35.46:202][581]LogBlueprint:Error: [compiler TheMainMap] Error The type of  Target Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2015.07.07-12.35.46:202][581]LogBlueprint:Error: [compiler TheMainMap] Error The type of  Target Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2015.07.07-12.35.46:202][581]LogBlueprint:Error: [compiler TheMainMap] Error The type of  Item  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2015.07.07-12.35.46:378][581]LogBlueprint:Warning: [compiler TheMainMap] Warning [4600.11] Compile of TheMainMap failed. 4 Fatal Issue(s) 0 Warning(s) [in 200 ms]
+[2015.07.07-12.35.46:378][581]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2015.07.07-12.35.46:378][581]BlueprintEditorCompileResults:Error: Error The type of  Target Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2015.07.07-12.35.46:378][581]BlueprintEditorCompileResults:Error: Error The type of  Target Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2015.07.07-12.35.46:378][581]BlueprintEditorCompileResults:Error: Error The type of  Item  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2015.07.07-12.35.46:378][581]BlueprintEditorCompileResults:Warning: Warning [4600.11] Compile of TheMainMap failed. 4 Fatal Issue(s) 0 Warning(s) [in 200 ms]
+[2015.07.07-12.37.44:283][628]BlueprintLog: New page: Compile TheMainMap
+[2015.07.07-12.37.44:397][628]BlueprintEditorCompileResults: Info [4718.12] Compile of TheMainMap successful! [in 113 ms]
+[2015.07.07-12.39.08:636][655]LogSavePackage: Save=173.329636ms
+[2015.07.07-12.39.08:636][655]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/TheMainMap_Auto6D4B77248468626D5710131A3F6226FD0.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/TheMainMap_Auto6.umap'
+[2015.07.07-12.39.08:641][655]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheMainMap' took 0.254
+[2015.07.07-12.39.08:641][655]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.254
+[2015.07.07-12.58.54:105][759]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.InitializeSubArray.K2Node_CallArrayFunction_67 or K2Node_CallArrayFunction /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.EventGraph.K2Node_CallArrayFunction_67
+[2015.07.07-12.58.54:105][759]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.EventGraph.K2Node_CallFunction_3815 or K2Node_CallFunction /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.InitializeSubArray.K2Node_CallFunction_3815
+[2015.07.07-12.58.54:105][759]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.EventGraph.K2Node_IfThenElse_96 or K2Node_IfThenElse /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.InitializeSubArray.K2Node_IfThenElse_96
+[2015.07.07-12.58.54:105][759]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.EventGraph.K2Node_CallFunction_3813 or K2Node_CallFunction /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.InitializeSubArray.K2Node_CallFunction_3813
+[2015.07.07-12.58.54:105][759]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.EventGraph.K2Node_CallFunction_3813 or K2Node_CallFunction /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.InitializeSubArray.K2Node_CallFunction_3813
+[2015.07.07-12.58.54:107][759]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.EventGraph.K2Node_VariableGet_411 or K2Node_VariableGet /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.InitializeSubArray.K2Node_VariableGet_411
+[2015.07.07-12.58.54:107][759]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.EventGraph.K2Node_IfThenElse_96 or K2Node_IfThenElse /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.InitializeSubArray.K2Node_IfThenElse_96
+[2015.07.07-12.58.54:107][759]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.EventGraph.K2Node_CallFunction_3815 or K2Node_CallFunction /Game/Maps/TheMainMap.TheMainMap:PersistentLevel.TheMainMap.InitializeSubArray.K2Node_CallFunction_3815
+[2015.07.07-13.01.00:700][801]LogSavePackage: Save=192.059204ms
+[2015.07.07-13.01.00:700][801]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/TheMainMap_Auto7352CD36B4A808E9D6DBD1DB69CCEEC2D.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/TheMainMap_Auto7.umap'
+[2015.07.07-13.01.00:705][801]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheMainMap' took 0.277
+[2015.07.07-13.01.00:705][801]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.277
+[2015.07.07-13.13.28:003][167]LogSavePackage: Save=206.686584ms
+[2015.07.07-13.13.28:003][167]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/TheMainMap_Auto879544ED24B12F69917BA89BF4FCF0D20.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/TheMainMap_Auto8.umap'
+[2015.07.07-13.13.28:008][167]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheMainMap' took 0.285
+[2015.07.07-13.13.28:008][167]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.285
+[2015.07.07-14.07.30:172][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.07-14.07.30:607][167]LogSavePackage: Save=405.736572ms
+[2015.07.07-14.07.30:607][167]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BPB860CEC24D1E377F70C36B92E25CF554.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.07-14.10.52:730][499]BlueprintLog: New page: Compile TheMainMap
+[2015.07.07-14.10.52:864][499]BlueprintEditorCompileResults: Info [0381.93] Compile of TheMainMap successful! [in 134 ms]
+[2015.07.07-14.12.10:870][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TheMainMap" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/TheMainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.07-14.12.11:130][460]LogSavePackage: Save=200.766907ms
+[2015.07.07-14.12.11:130][460]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/TheMainMap3FC866434E98438774A2279657A7F41F.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/TheMainMap.umap'
+[2015.07.07-14.12.11:168][460]LogFileHelpers: Saving map 'TheMainMap' took 0.473
+[2015.07.07-14.12.13:693][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A98532F20
+[2015.07.07-14.12.13:982][650]LogSavePackage: Save=196.814163ms
+[2015.07.07-14.12.13:982][650]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMapFA6BD7A344099FA6C105D981B87137D3.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.07-14.18.42:193][ 86]BlueprintLog: New page: Compile TheMainMap
+[2015.07.07-14.18.42:318][ 86]BlueprintEditorCompileResults: Info [0851.38] Compile of TheMainMap successful! [in 124 ms]
+[2015.07.07-14.18.47:403][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TheMainMap" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/TheMainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.07-14.18.47:661][501]LogSavePackage: Save=201.374512ms
+[2015.07.07-14.18.47:661][501]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/TheMainMap474106DC4E72615752E69A9FDA6DFA79.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/TheMainMap.umap'
+[2015.07.07-14.18.47:698][501]LogFileHelpers: Saving map 'TheMainMap' took 0.455
+[2015.07.07-14.18.51:120][752]LogSavePackage: Save=205.063278ms
+[2015.07.07-14.18.51:120][752]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMapF7D061704BB74C60C618758C1D3B875A.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.07-16.14.15:328][541]LogHttp:Warning: Timeout processing Http request. 0000003AAC906400
+[2015.07.07-16.16.55:093][232]LogSavePackage: Save=211.131577ms
+[2015.07.07-16.16.55:093][232]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMap28EC9CC84A2F3EC7C76124AC1651CCE6.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.07-16.20.13:219][982]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.07.07-16.20.17:190][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003AC1BA1580
+[2015.07.07-16.20.17:193][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003AC1BA0E00
+[2015.07.07-16.20.17:314][210]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.07-16.20.17:610][211]Cmd: QUIT_EDITOR
+[2015.07.07-16.20.17:914][211]LogExit: Preparing to exit.
+[2015.07.07-16.20.18:416][211]LogExit: Editor shut down
+[2015.07.07-16.20.18:416][211]LogExit: Transaction tracking system shut down
+[2015.07.07-16.20.18:424][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A98077D80
+[2015.07.07-16.20.18:425][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A9F444900
+[2015.07.07-16.20.18:425][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003A9F30E200
+[2015.07.07-16.20.18:425][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003AA00D99E0
+[2015.07.07-16.20.18:426][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003AC0F777E0
+[2015.07.07-16.20.18:805][211]LogExit: Object subsystem successfully closed.
+[2015.07.07-16.20.19:032][211]LogModuleManager: Shutting down and abandoning module CrashTracker (189)
+[2015.07.07-16.20.19:032][211]LogModuleManager: Shutting down and abandoning module SceneOutliner (188)
+[2015.07.07-16.20.19:033][211]LogModuleManager: Shutting down and abandoning module SuperSearch (187)
+[2015.07.07-16.20.19:033][211]LogModuleManager: Shutting down and abandoning module WidgetCarousel (186)
+[2015.07.07-16.20.19:034][211]LogModuleManager: Shutting down and abandoning module AddContentDialog (185)
+[2015.07.07-16.20.19:039][211]LogModuleManager: Shutting down and abandoning module EditorWidgets (184)
+[2015.07.07-16.20.19:039][211]LogModuleManager: Shutting down and abandoning module CollectionManager (183)
+[2015.07.07-16.20.19:039][211]LogModuleManager: Shutting down and abandoning module StatsViewer (182)
+[2015.07.07-16.20.19:040][211]LogModuleManager: Shutting down and abandoning module FoliageEdit (181)
+[2015.07.07-16.20.19:041][211]LogModuleManager: Shutting down and abandoning module LandscapeEditor (180)
+[2015.07.07-16.20.19:042][211]LogModuleManager: Shutting down and abandoning module ActorPickerMode (179)
+[2015.07.07-16.20.19:042][211]LogModuleManager: Shutting down and abandoning module GeometryMode (178)
+[2015.07.07-16.20.19:042][211]LogModuleManager: Shutting down and abandoning module TextureAlignMode (177)
+[2015.07.07-16.20.19:042][211]LogModuleManager: Shutting down and abandoning module BspMode (176)
+[2015.07.07-16.20.19:042][211]LogModuleManager: Shutting down and abandoning module PlacementMode (175)
+[2015.07.07-16.20.19:042][211]LogModuleManager: Shutting down and abandoning module AutomationWorker (174)
+[2015.07.07-16.20.19:042][211]LogModuleManager: Shutting down and abandoning module CharacterAI (173)
+[2015.07.07-16.20.19:042][211]LogModuleManager: Shutting down and abandoning module SmartSnapping (172)
+[2015.07.07-16.20.19:042][211]LogModuleManager: Shutting down and abandoning module ViewportSnapping (171)
+[2015.07.07-16.20.19:042][211]LogModuleManager: Shutting down and abandoning module LogVisualizer (170)
+[2015.07.07-16.20.19:043][211]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (169)
+[2015.07.07-16.20.19:044][211]LogModuleManager: Shutting down and abandoning module IntroTutorials (168)
+[2015.07.07-16.20.19:046][211]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (167)
+[2015.07.07-16.20.19:046][211]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (166)
+[2015.07.07-16.20.19:046][211]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (165)
+[2015.07.07-16.20.19:046][211]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (164)
+[2015.07.07-16.20.20:009][211]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (163)
+[2015.07.07-16.20.20:009][211]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (162)
+[2015.07.07-16.20.20:009][211]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (161)
+[2015.07.07-16.20.20:009][211]LogModuleManager: Shutting down and abandoning module MergeActors (160)
+[2015.07.07-16.20.20:010][211]LogModuleManager: Shutting down and abandoning module SizeMap (159)
+[2015.07.07-16.20.20:010][211]LogModuleManager: Shutting down and abandoning module TreeMap (158)
+[2015.07.07-16.20.20:010][211]LogModuleManager: Shutting down and abandoning module ReferenceViewer (157)
+[2015.07.07-16.20.20:010][211]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (156)
+[2015.07.07-16.20.20:011][211]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.07.07-16.20.20:011][211]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.07.07-16.20.20:011][211]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.07.07-16.20.20:011][211]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.07.07-16.20.20:012][211]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.07.07-16.20.20:012][211]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.07.07-16.20.20:012][211]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.07.07-16.20.20:012][211]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (148)
+[2015.07.07-16.20.20:012][211]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (147)
+[2015.07.07-16.20.20:012][211]LogModuleManager: Shutting down and abandoning module InputBindingEditor (146)
+[2015.07.07-16.20.20:013][211]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (145)
+[2015.07.07-16.20.20:013][211]LogModuleManager: Shutting down and abandoning module SettingsEditor (144)
+[2015.07.07-16.20.20:014][211]LogModuleManager: Shutting down and abandoning module ProjectLauncher (143)
+[2015.07.07-16.20.20:015][211]LogModuleManager: Shutting down and abandoning module SessionFrontend (142)
+[2015.07.07-16.20.20:015][211]LogModuleManager: Shutting down and abandoning module ProfilerClient (141)
+[2015.07.07-16.20.20:016][211]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (140)
+[2015.07.07-16.20.20:016][211]LogModuleManager: Shutting down and abandoning module DeviceManager (139)
+[2015.07.07-16.20.20:016][211]LogModuleManager: Shutting down and abandoning module AutomationController (138)
+[2015.07.07-16.20.20:017][211]LogModuleManager: Shutting down and abandoning module AutomationWindow (137)
+[2015.07.07-16.20.20:017][211]LogModuleManager: Shutting down and abandoning module Layers (136)
+[2015.07.07-16.20.20:019][211]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (135)
+[2015.07.07-16.20.20:020][211]LogModuleManager: Shutting down and abandoning module DetailCustomizations (134)
+[2015.07.07-16.20.20:020][211]LogModuleManager: Shutting down and abandoning module PackagesDialog (133)
+[2015.07.07-16.20.20:020][211]LogModuleManager: Shutting down and abandoning module AssetRegistry (132)
+[2015.07.07-16.20.20:176][211]LogModuleManager: Shutting down and abandoning module Persona (131)
+[2015.07.07-16.20.20:178][211]LogModuleManager: Shutting down and abandoning module Kismet (130)
+[2015.07.07-16.20.20:178][211]LogModuleManager: Shutting down and abandoning module GraphEditor (129)
+[2015.07.07-16.20.20:178][211]LogModuleManager: Shutting down and abandoning module ClassViewer (128)
+[2015.07.07-16.20.20:180][211]LogModuleManager: Shutting down and abandoning module Toolbox (127)
+[2015.07.07-16.20.20:180][211]LogModuleManager: Shutting down and abandoning module ModuleUI (126)
+[2015.07.07-16.20.20:180][211]LogModuleManager: Shutting down and abandoning module MovieSceneTools (125)
+[2015.07.07-16.20.20:182][211]LogModuleManager: Shutting down and abandoning module OutputLog (124)
+[2015.07.07-16.20.20:182][211]LogModuleManager: Shutting down and abandoning module GammaUI (123)
+[2015.07.07-16.20.20:183][211]LogModuleManager: Shutting down and abandoning module Documentation (122)
+[2015.07.07-16.20.20:183][211]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (121)
+[2015.07.07-16.20.20:183][211]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (120)
+[2015.07.07-16.20.20:183][211]LogModuleManager: Shutting down and abandoning module AnalyticsET (119)
+[2015.07.07-16.20.20:183][211]LogModuleManager: Shutting down and abandoning module Analytics (118)
+[2015.07.07-16.20.20:183][211]LogModuleManager: Shutting down and abandoning module AITestSuite (117)
+[2015.07.07-16.20.20:183][211]LogModuleManager: Shutting down and abandoning module GameplayDebugger (116)
+[2015.07.07-16.20.20:184][211]LogModuleManager: Shutting down and abandoning module AIModule (115)
+[2015.07.07-16.20.20:184][211]LogModuleManager: Shutting down and abandoning module ProfilerService (114)
+[2015.07.07-16.20.20:373][211]LogModuleManager: Shutting down and abandoning module TaskGraph (113)
+[2015.07.07-16.20.20:375][211]LogModuleManager: Shutting down and abandoning module SlateRemote (112)
+[2015.07.07-16.20.20:375][211]LogModuleManager: Shutting down and abandoning module SteamVRController (111)
+[2015.07.07-16.20.20:375][211]LogModuleManager: Shutting down and abandoning module SteamVR (110)
+[2015.07.07-16.20.20:375][211]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (109)
+[2015.07.07-16.20.20:375][211]LogModuleManager: Shutting down and abandoning module OculusRift (108)
+[2015.07.07-16.20.20:375][211]LogModuleManager: Shutting down and abandoning module LeapMotionController (107)
+[2015.07.07-16.20.20:410][211]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (106)
+[2015.07.07-16.20.20:410][211]LogModuleManager: Shutting down and abandoning module CableComponent (105)
+[2015.07.07-16.20.20:410][211]LogModuleManager: Shutting down and abandoning module MessagingDebugger (104)
+[2015.07.07-16.20.20:413][211]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (103)
+[2015.07.07-16.20.20:414][211]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (102)
+[2015.07.07-16.20.20:414][211]LogModuleManager: Shutting down and abandoning module PluginBrowser (101)
+[2015.07.07-16.20.20:415][211]LogModuleManager: Shutting down and abandoning module EpicSurvey (100)
+[2015.07.07-16.20.20:416][211]LogModuleManager: Shutting down and abandoning module DesktopPlatform (99)
+[2015.07.07-16.20.20:417][211]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (98)
+[2015.07.07-16.20.20:418][211]LogModuleManager: Shutting down and abandoning module UObjectPlugin (97)
+[2015.07.07-16.20.20:418][211]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (96)
+[2015.07.07-16.20.20:418][211]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (95)
+[2015.07.07-16.20.20:419][211]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2015.07.07-16.20.20:420][211]LogModuleManager: Shutting down and abandoning module GitSourceControl (93)
+[2015.07.07-16.20.20:421][211]LogModuleManager: Shutting down and abandoning module BlankPlugin (92)
+[2015.07.07-16.20.20:421][211]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (91)
+[2015.07.07-16.20.20:421][211]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (90)
+[2015.07.07-16.20.20:421][211]LogModuleManager: Shutting down and abandoning module MeshPaint (89)
+[2015.07.07-16.20.20:421][211]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.07.07-16.20.20:422][211]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.07.07-16.20.20:425][211]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.07.07-16.20.20:426][211]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.07.07-16.20.20:426][211]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.07.07-16.20.20:428][211]LogModuleManager: Shutting down and abandoning module ContentBrowser (83)
+[2015.07.07-16.20.20:430][211]LogModuleManager: Shutting down and abandoning module Paper2DEditor (82)
+[2015.07.07-16.20.20:431][211]LogModuleManager: Shutting down and abandoning module ATLASrift (81)
+[2015.07.07-16.20.20:431][211]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.07-16.20.20:532][211]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.07-16.20.20:532][211]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.07-16.20.20:538][211]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.07-16.20.20:538][211]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.07-16.20.20:538][211]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.07-16.20.20:539][211]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.07-16.20.20:539][211]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.07-16.20.20:540][211]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.07-16.20.20:540][211]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.07-16.20.20:541][211]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.07-16.20.20:542][211]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.07-16.20.20:542][211]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.07-16.20.20:544][211]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.07-16.20.20:546][211]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.07-16.20.20:547][211]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.07-16.20.20:548][211]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.07-16.20.20:548][211]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.07-16.20.20:552][211]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.07-16.20.20:552][211]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.07-16.20.20:552][211]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.07-16.20.20:552][211]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.07-16.20.20:552][211]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.07-16.20.20:552][211]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.07-16.20.20:552][211]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.07-16.20.20:552][211]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.07-16.20.20:552][211]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.07-16.20.20:554][211]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.07-16.20.20:613][211]LogDerivedDataCache: Shutdown
+[2015.07.07-16.20.20:613][211]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.07-16.20.20:613][211]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.07-16.20.20:613][211]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.07-16.20.20:614][211]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.07-16.20.20:614][211]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.07-16.20.20:614][211]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.07-16.20.20:614][211]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.07-16.20.20:614][211]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.07-16.20.20:614][211]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.07-16.20.20:615][211]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.07-16.20.20:615][211]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.07-16.20.20:615][211]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.07-16.20.20:615][211]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.07-16.20.20:615][211]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.07-16.20.20:615][211]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.07-16.20.20:615][211]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.07-16.20.20:615][211]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.07-16.20.20:615][211]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.07-16.20.20:615][211]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.07-16.20.20:615][211]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.07-16.20.20:615][211]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.07-16.20.20:615][211]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.07-16.20.20:616][211]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.07-16.20.20:616][211]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.07-16.20.20:616][211]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.07-16.20.20:616][211]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.07-16.20.20:616][211]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.07-16.20.20:616][211]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.07-16.20.20:616][211]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.07-16.20.20:616][211]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.07-16.20.20:616][211]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.07-16.20.20:616][211]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.07-16.20.20:616][211]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.07-16.20.20:616][211]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.07-16.20.20:616][211]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.07-16.20.20:616][211]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.07-16.20.20:617][211]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.07-16.20.20:617][211]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.07-16.20.20:617][211]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.07-16.20.20:617][211]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.07-16.20.20:617][211]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.07-16.20.20:632][211]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.07-16.20.20:632][211]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.07-16.20.20:632][211]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.07-16.20.20:632][211]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.07-16.20.20:632][211]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.07-16.20.20:632][211]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.07-16.20.20:633][211]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.07-16.20.20:633][211]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.07-16.20.20:633][211]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.07-16.20.20:636][211]LogExit: Exiting.
+[2015.07.07-16.20.20:642][211]Log file closed, 07/07/15 18:20:20

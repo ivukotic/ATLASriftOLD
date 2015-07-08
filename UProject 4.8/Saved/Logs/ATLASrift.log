@@ -1,0 +1,248 @@
+﻿[2015.07.08-08.56.29:354][  0]Log file open, 07/08/15 10:56:29
+[2015.07.08-08.56.29:354][  0]LogInit:Display: Running engine for game: ATLASrift
+[2015.07.08-08.56.29:354][  0]LogInit:Display: RandInit(-1653142591) SRandInit(-1653142590).
+[2015.07.08-08.56.29:354][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.08-08.56.29:354][  0]LogStats: Stats thread started
+[2015.07.08-08.56.29:354][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.08-08.56.29:354][  0]LogInit: API Version: 2579680
+[2015.07.08-08.56.29:354][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
+[2015.07.08-08.56.29:354][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.08-08.56.29:354][  0]LogInit: Build Configuration: Development
+[2015.07.08-08.56.29:354][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.08-08.56.29:354][  0]LogInit: Command line:  
+[2015.07.08-08.56.29:354][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.08-08.56.29:354][  0]LogInit: Rocket: 1
+[2015.07.08-08.56.29:379][  0]LogInit: Using libcurl 7.41.0
+[2015.07.08-08.56.29:379][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.08-08.56.29:379][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.08-08.56.29:379][  0]LogInit:  - other features:
+[2015.07.08-08.56.29:379][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.08-08.56.29:379][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.08-08.56.29:379][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.08-08.56.29:379][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.08-08.56.29:379][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.08-08.56.29:380][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.08-08.56.29:380][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.08-08.56.29:380][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.08-08.56.29:380][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.08-08.56.29:380][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.08-08.56.29:395][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.08-08.56.29:433][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.08-08.56.29:448][  0]LogInit: Object subsystem initialized
+[2015.07.08-08.56.29:456][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.07.08-08.56.29:456][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.08-08.56.29:461][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2015.07.08-08.56.29:462][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.08-08.56.29:462][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.08-08.56.29:474][  0]LogInit: Computer: ILIJAMSI
+[2015.07.08-08.56.29:474][  0]LogInit: User: Ilija
+[2015.07.08-08.56.29:474][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.08-08.56.29:474][  0]LogInit: High frequency timer resolution =2.435775 MHz
+[2015.07.08-08.56.29:474][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.07.08-08.56.29:474][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.08-08.56.29:474][  0]LogMemory: Process Physical Memory: 49.59 MB used, 49.59 MB peak
+[2015.07.08-08.56.29:474][  0]LogMemory: Process Virtual Memory: 22.38 MB used, 22.38 MB peak
+[2015.07.08-08.56.29:474][  0]LogMemory: Physical Memory: 2590.90 MB used, 16336.84 MB total
+[2015.07.08-08.56.29:474][  0]LogMemory: Virtual Memory: 295.75 MB used, 134217728.00 MB total
+[2015.07.08-08.56.29:638][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.08-08.56.29:881][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.08-08.56.30:436][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M (Feature Level 11_0)
+[2015.07.08-08.56.30:436][  0]LogD3D11RHI: Adapter has 8023MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 1 output[s]
+[2015.07.08-08.56.30:438][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.08-08.56.30:438][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.08-08.56.30:438][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.08-08.56.30:443][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.08-08.56.30:458][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.08-08.56.30:999][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.08-08.56.32:256][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.08-08.56.32:278][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.08-08.56.32:300][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.08-08.56.32:322][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.08-08.56.32:346][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.08-08.56.32:366][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.08-08.56.32:386][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.08-08.56.32:406][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.08-08.56.32:426][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.08-08.56.32:446][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.08-08.56.32:466][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.08-08.56.32:486][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.08-08.56.32:564][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.08-08.56.32:584][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.08-08.56.32:604][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.08-08.56.32:627][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.08-08.56.32:627][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.08-08.56.32:976][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.08-08.56.33:133][  0]LogDerivedDataCache: Loaded boot cache 0.16s 53MB C:/Users/Ilija/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.08-08.56.33:133][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ilija/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.08-08.56.33:133][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.08-08.56.33:133][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.08-08.56.33:133][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.08-08.56.33:133][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.08-08.56.33:321][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.08-08.56.33:333][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ilija/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.08-08.56.33:983][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.08-08.56.34:143][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.08-08.56.34:144][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.08-08.56.34:195][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.08-08.56.34:195][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.08-08.56.34:825][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.08-08.56.37:056][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.08-08.56.37:677][  0]SourceControl: Info Source control is disabled
+[2015.07.08-08.56.37:695][  0]SourceControl: Info Source control is disabled
+[2015.07.08-08.56.37:717][  0]SourceControl: Info Source control is disabled
+[2015.07.08-08.56.37:740][  0]SourceControl: Info Source control is disabled
+[2015.07.08-08.56.38:144][  0]LogObj: 26286 objects as part of root set at end of initial load.
+[2015.07.08-08.56.38:144][  0]LogUObjectAllocator: 5413376 out of 0 bytes used by permanent object pool.
+[2015.07.08-08.56.38:276][  0]LogEngine: Initializing Engine...
+[2015.07.08-08.56.38:279][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.08-08.56.39:548][  0]LogHMD: SteamVR initialized.  Driver: oculus  Display: 206D5J030W8G
+[2015.07.08-08.56.39:787][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.08-08.56.39:799][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.08-08.56.39:830][  0]LogInit: FAudioDevice initialized.
+[2015.07.08-08.56.39:859][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Ilija/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.08-08.56.39:863][  0]LogInit: Texture streaming: Disabled
+[2015.07.08-08.56.39:899][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.08-08.56.39:900][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.08-08.56.39:900][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b119772443275f0bba10d896a7f21aad|0d0c0c17db8d4debbe0ee04300f3aac1|fd72ce22-a9a9-4363-8f94-5aa8b51f1e00
+[2015.07.08-08.56.39:901][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.08-08.56.39:944][  0]LogInit: Transaction tracking system initialized
+[2015.07.08-08.56.40:165][  0]BlueprintLog: New page: Editor Load
+[2015.07.08-08.56.40:219][  0]LogAssetRegistry: FAssetRegistry took 0.0132 seconds to start up
+[2015.07.08-08.56.40:224][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.08-08.56.41:492][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'Code')
+[2015.07.08-08.56.41:492][  0]LogConsoleResponse:Display: 
+[2015.07.08-08.56.41:688][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.08-08.56.42:014][  0]SourceControl: Info Source control is disabled
+[2015.07.08-08.56.42:016][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/TheMainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.08-08.56.42:018][  0]LightingResults: New page: Lighting Build
+[2015.07.08-08.56.42:039][  0]MapCheck: New page: Map Check
+[2015.07.08-08.56.42:039][  0]LightingResults: New page: Lighting Build
+[2015.07.08-08.56.42:054][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004AED00EF20
+[2015.07.08-08.56.49:712][  0]LogAIModule: Creating AISystem for world TheMainMap
+[2015.07.08-08.56.49:763][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.08-08.56.49:773][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.08-08.56.49:885][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 111.821ms to complete.
+[2015.07.08-08.56.49:885][  0]LogFileHelpers: Loading map 'TheMainMap' took 7.870
+[2015.07.08-08.56.50:021][  0]LogCollectionManager: Loaded 0 collections in 0.002521 seconds
+[2015.07.08-08.56.50:035][  0]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 1794 classes and 303 folders.
+[2015.07.08-08.56.50:115][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2015.07.08-08.56.50:192][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2015.07.08-08.56.50:277][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2015.07.08-08.56.50:439][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.08-08.56.50:450][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.08-08.56.50:475][  0]LogLoad: Full Startup: 23.54 seconds (BP compile: 1.61 seconds)
+[2015.07.08-08.56.50:925][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.08-08.56.51:056][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.08-08.56.51:240][  0]LogRenderer: Reallocating scene render targets to support 1064x928 (Frame:2).
+[2015.07.08-08.56.54:108][  9]LogAssetRegistry: Asset discovery search completed in 13.9019 seconds
+[2015.07.08-08.56.56:087][ 13]LogSavePackage: Save=199.307404ms
+[2015.07.08-08.56.56:087][ 13]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMap9CDA6AE348B5A304535E75941C6782E6.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.08-09.11.37:598][ 91]LogSavePackage: Save=206.516617ms
+[2015.07.08-09.11.37:598][ 91]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMap90B386854FD89155DC5450ADB43B1C32.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.08-09.28.36:193][381]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.08-09.28.36:238][381]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.08-09.28.36:338][381]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.08-09.30.25:003][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.08-09.30.25:448][803]LogSavePackage: Save=416.071686ms
+[2015.07.08-09.30.25:448][803]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BPDDDDC46E4D27A7A71FCF36B92643F094.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.08-09.30.25:689][817]BlueprintLog: New page: Compile IlijaFlyingCharacter_BP
+[2015.07.08-09.30.26:034][817]BlueprintEditorCompileResults: Info [2039.10] Compile of IlijaFlyingCharacter_BP successful! [in 344 ms]
+[2015.07.08-09.31.08:908][356]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.08-09.31.45:658][516]LogActor:Warning: GameNetworkManager /Engine/Transient.World_5:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.08-09.34.03:149][750]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.08-09.35.29:198][751]LogRenderer: Reallocating scene render targets to support 1128x928 (Frame:22052).
+[2015.07.08-09.41.03:245][683]BlueprintLog: New page: Compile IlijaFlyingCharacter_BP
+[2015.07.08-09.41.03:553][683]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004AE1C70EA0
+[2015.07.08-09.41.03:555][683]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004AE01307C0
+[2015.07.08-09.41.03:555][683]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004AE00CB240
+[2015.07.08-09.41.03:601][683]BlueprintEditorCompileResults: Info [2676.67] Compile of IlijaFlyingCharacter_BP successful! [in 354 ms]
+[2015.07.08-09.41.04:549][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.08-09.41.04:990][733]LogSavePackage: Save=412.180939ms
+[2015.07.08-09.41.04:990][733]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BP7EC353974D26F15FBACBD684E342DC8C.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.08-09.41.49:560][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.08-09.41.50:007][388]LogSavePackage: Save=420.244904ms
+[2015.07.08-09.41.50:007][388]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BP725C61C84F6E84571AB7D3AEBEB5DEE4.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.08-09.41.50:683][428]BlueprintLog: New page: Compile IlijaFlyingCharacter_BP
+[2015.07.08-09.41.51:021][428]BlueprintEditorCompileResults: Info [2724.09] Compile of IlijaFlyingCharacter_BP successful! [in 337 ms]
+[2015.07.08-09.41.54:032][573]LogSavePackage: Save=217.893280ms
+[2015.07.08-09.41.54:032][573]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMap550339684189280CDC97F1A8C65B00B4.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.08-09.43.36:931][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.08-09.43.37:372][334]LogSavePackage: Save=414.635193ms
+[2015.07.08-09.43.37:372][334]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BPB4C25F474B1AA95772DF5D8DF18D086F.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.08-09.43.39:495][461]BlueprintLog: New page: Compile IlijaFlyingCharacter_BP
+[2015.07.08-09.43.39:832][461]BlueprintEditorCompileResults: Info [2832.90] Compile of IlijaFlyingCharacter_BP successful! [in 336 ms]
+[2015.07.08-09.43.40:746][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.08-09.43.41:202][511]LogSavePackage: Save=436.032074ms
+[2015.07.08-09.43.41:202][511]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BP5B56C1A1466C4718C9704E91FD0A4A30.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.08-09.43.43:466][619]LogSavePackage: Save=214.268555ms
+[2015.07.08-09.43.43:466][619]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMapDE2D0D8C439443B4C80C0298F75E9E66.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.08-09.45.22:733][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.08-09.45.23:181][327]LogSavePackage: Save=422.692169ms
+[2015.07.08-09.45.23:181][327]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BP95AC602D4DAA022D3E06EE96B80659BF.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.08-09.45.23:488][327]LogSavePackage: Save=221.952362ms
+[2015.07.08-09.45.23:488][327]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMapD3E85DAE4690434232244DB2105BDA84.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.08-09.45.27:745][506]BlueprintLog: New page: Compile IlijaFlyingCharacter_BP
+[2015.07.08-09.45.28:156][506]BlueprintEditorCompileResults: Info [2941.22] Compile of IlijaFlyingCharacter_BP successful! [in 411 ms]
+[2015.07.08-09.47.29:332][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.08-09.47.29:781][700]LogSavePackage: Save=422.480316ms
+[2015.07.08-09.47.29:781][700]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BPA30D3BAE4FECDA2651CED3894BC41F7B.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.08-09.47.29:957][710]BlueprintLog: New page: Compile IlijaFlyingCharacter_BP
+[2015.07.08-09.47.30:279][710]BlueprintEditorCompileResults: Info [3063.34] Compile of IlijaFlyingCharacter_BP successful! [in 321 ms]
+[2015.07.08-09.47.31:347][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.08-09.47.31:790][767]LogSavePackage: Save=422.080872ms
+[2015.07.08-09.47.31:790][767]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BP18FFB34F4D835713C3CCC0BA94A384E9.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.08-09.47.33:444][839]LogSavePackage: Save=224.514984ms
+[2015.07.08-09.47.33:444][839]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMapA54F1BBB431278E6BFA790A506774085.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.08-09.53.33:451][ 68]BlueprintLog: New page: Compile IlijaFlyingCharacter_BP
+[2015.07.08-09.53.33:781][ 68]BlueprintEditorCompileResults: Info [3426.85] Compile of IlijaFlyingCharacter_BP successful! [in 328 ms]
+[2015.07.08-09.53.34:249][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.08-09.53.34:699][ 91]LogSavePackage: Save=421.774597ms
+[2015.07.08-09.53.34:699][ 91]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BPEE48E1DF47046CA0694093B372349C79.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.08-09.53.36:324][155]LogSavePackage: Save=229.342194ms
+[2015.07.08-09.53.36:324][155]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMap04FC786F4324F800866B7F98E3C60F05.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.08-09.57.07:621][757]BlueprintLog: New page: Compile IlijaFlyingCharacter_BP
+[2015.07.08-09.57.07:955][757]BlueprintEditorCompileResults: Info [3641.02] Compile of IlijaFlyingCharacter_BP successful! [in 334 ms]
+[2015.07.08-09.57.08:521][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.08-09.57.08:969][786]LogSavePackage: Save=424.200104ms
+[2015.07.08-09.57.08:969][786]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BPE2DAAA53440B239CD2283E96DDB9B305.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.08-09.59.12:804][716]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheMainMap' took 0.043
+[2015.07.08-09.59.12:811][716]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/IlijaFlyingCharacter_BP] ([1] browsable assets)...
+[2015.07.08-09.59.12:811][716]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/IlijaFlyingCharacter_BP]
+[2015.07.08-09.59.13:302][716]LogSavePackage: Save=455.602844ms
+[2015.07.08-09.59.13:302][716]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BP_Auto1EA942445483EA6155E5AAF958D7FE971.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/IlijaFlyingCharacter_BP_Auto1.uasset'
+[2015.07.08-09.59.13:304][716]LogFileHelpers: Auto-saving content packages took 0.500
+[2015.07.08-10.02.14:073][454]BlueprintLog: New page: Compile IlijaFlyingCharacter_BP
+[2015.07.08-10.02.14:422][454]BlueprintEditorCompileResults: Info [3947.49] Compile of IlijaFlyingCharacter_BP successful! [in 347 ms]
+[2015.07.08-10.02.14:962][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.08-10.02.15:407][481]LogSavePackage: Save=423.663513ms
+[2015.07.08-10.02.15:407][481]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BPA1FDEEF04AA9392FFA9F38B9A9EEE913.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.08-10.04.34:874][155]LogEditorTransaction: Undo Move Node
+[2015.07.08-10.04.35:911][195]LogEditorTransaction: Undo Paste clipboard contents
+[2015.07.08-10.04.42:262][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.08-10.04.42:729][498]LogSavePackage: Save=439.890381ms
+[2015.07.08-10.04.42:729][498]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BPD934D36A4E758CE5F81A2496D20A7DFF.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.08-10.04.43:832][552]BlueprintLog: New page: Compile IlijaFlyingCharacter_BP
+[2015.07.08-10.04.44:170][552]BlueprintEditorCompileResults: Info [4097.24] Compile of IlijaFlyingCharacter_BP successful! [in 338 ms]
+[2015.07.08-10.04.57:809][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/IlijaFlyingCharacter_BP" FILE="../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset" SILENT=true
+[2015.07.08-10.04.58:274][965]LogSavePackage: Save=437.885284ms
+[2015.07.08-10.04.58:274][965]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/IlijaFlyingCharacter_BP4DA5BE174B913708B00D9E9CE95D97C1.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Maps/IlijaFlyingCharacter_BP.uasset'
+[2015.07.08-10.05.39:945][368]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004ACA61E8E0
+[2015.07.08-10.05.59:841][131]LogSavePackage: Save=218.119080ms
+[2015.07.08-10.05.59:841][131]LogSavePackage: Moving '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/UEDPCTheMainMapC5A683F54534B38C9BDB788958AB310E.tmp' to '../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Autosaves/Game/Maps/UEDPCTheMainMap.umap'
+[2015.07.08-10.24.13:267][223]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.08-10.24.13:534][224]Cmd: QUIT_EDITOR
+[2015.07.08-10.24.13:827][224]LogExit: Preparing to exit.
+[2015.07.08-10.24.14:424][224]LogExit: Editor shut down
+[2015.07.08-10.24.14:425][224]LogExit: Transaction tracking system shut down
+[2015.07.08-10.24.14:433][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A8D9EA980
+[2015.07.08-10.24.14:434][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004AB91839C0
+[2015.07.08-10.24.14:436][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004AE18C7C40
+[2015.07.08-10.24.14:436][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004AED907D80
+[2015.07.08-10.24.14:436][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004AB9E57920
+[2015.07.08-10.24.14:436][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004A8AE99B20
+[2015.07.08-10.24.14:731][224]LogExit: Object subsystem successfully closed.
+[2015.07.08-10.24.14:875][224]LogCrashTracker: 
+
+

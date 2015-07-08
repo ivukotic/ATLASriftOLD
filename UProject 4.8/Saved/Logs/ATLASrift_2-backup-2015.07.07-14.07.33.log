@@ -1,0 +1,291 @@
+﻿[2015.07.07-11.58.17:231][  0]Log file open, 07/07/15 13:58:17
+[2015.07.07-11.58.17:231][  0]LogInit:Display: Running engine for game: ATLASrift
+[2015.07.07-11.58.17:231][  0]LogInit:Display: RandInit(-1055373229) SRandInit(-1055373229).
+[2015.07.07-11.58.17:231][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.07-11.58.17:231][  0]LogStats: Stats thread started
+[2015.07.07-11.58.17:231][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.07-11.58.17:231][  0]LogInit: API Version: 2579680
+[2015.07.07-11.58.17:231][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
+[2015.07.07-11.58.17:231][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.07-11.58.17:231][  0]LogInit: Build Configuration: Development
+[2015.07.07-11.58.17:231][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.07-11.58.17:231][  0]LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCTheMainMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2015.07.07-11.58.17:231][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.07-11.58.17:231][  0]LogInit: Rocket: 1
+[2015.07.07-11.58.17:252][  0]LogInit: Using libcurl 7.41.0
+[2015.07.07-11.58.17:252][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.07-11.58.17:252][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.07-11.58.17:252][  0]LogInit:  - other features:
+[2015.07.07-11.58.17:252][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.07-11.58.17:252][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.07-11.58.17:252][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.07-11.58.17:252][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.07-11.58.17:252][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.07-11.58.17:252][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.07-11.58.17:252][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.07-11.58.17:252][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.07-11.58.17:252][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.07-11.58.17:252][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.07-11.58.17:267][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.07-11.58.17:290][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.07-11.58.17:298][  0]LogInit: Object subsystem initialized
+[2015.07.07-11.58.17:299][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.07.07-11.58.17:299][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Ilija/Documents/ATLASrift/UProject 4.8/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.07-11.58.17:299][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2015.07.07-11.58.17:300][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.07-11.58.17:300][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.07-11.58.17:303][  0]LogInit: Computer: ILIJAMSI
+[2015.07.07-11.58.17:303][  0]LogInit: User: Ilija
+[2015.07.07-11.58.17:303][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.07-11.58.17:303][  0]LogInit: High frequency timer resolution =2.435775 MHz
+[2015.07.07-11.58.17:303][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.07.07-11.58.17:304][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.07-11.58.17:304][  0]LogMemory: Process Physical Memory: 48.68 MB used, 48.68 MB peak
+[2015.07.07-11.58.17:304][  0]LogMemory: Process Virtual Memory: 22.36 MB used, 22.36 MB peak
+[2015.07.07-11.58.17:304][  0]LogMemory: Physical Memory: 3889.92 MB used, 16336.84 MB total
+[2015.07.07-11.58.17:304][  0]LogMemory: Virtual Memory: 295.75 MB used, 134217728.00 MB total
+[2015.07.07-11.58.17:362][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.07-11.58.17:612][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.07-11.58.18:020][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M (Feature Level 11_0)
+[2015.07.07-11.58.18:020][  0]LogD3D11RHI: Adapter has 8023MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 1 output[s]
+[2015.07.07-11.58.18:022][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.07-11.58.18:022][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.07-11.58.18:022][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.07-11.58.18:026][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.07-11.58.18:041][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.07-11.58.18:587][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.07-11.58.19:673][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.07-11.58.19:697][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.07-11.58.19:734][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.07-11.58.19:760][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.07-11.58.19:798][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.07-11.58.19:851][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.07-11.58.19:901][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.07-11.58.19:943][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.07-11.58.19:976][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.07-11.58.20:017][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.07-11.58.20:063][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.07-11.58.20:103][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.07-11.58.20:238][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.07-11.58.20:289][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.07-11.58.20:340][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.07-11.58.20:395][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.07-11.58.20:395][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.07-11.58.20:971][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.07-11.58.21:064][  0]LogDerivedDataCache: Loaded boot cache 0.09s 53MB C:/Users/Ilija/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.07-11.58.21:064][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ilija/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.07-11.58.21:064][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.07-11.58.21:064][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.07-11.58.21:064][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.07-11.58.21:064][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.07-11.58.21:247][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.07-11.58.21:260][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ilija/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.07-11.58.21:540][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.07-11.58.21:641][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.07-11.58.21:641][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.07-11.58.21:676][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.07-11.58.21:676][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.07-11.58.22:147][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.07-11.58.22:934][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Ilija/Documents/ATLASrift/UProject 4.8/Content/Movies/Default_Startup.mp4
+[2015.07.07-11.58.23:260][  0]SourceControl: Info Source control is disabled
+[2015.07.07-11.58.23:260][  0]SourceControl: Info Source control is disabled
+[2015.07.07-11.58.23:299][  0]SourceControl: Info Source control is disabled
+[2015.07.07-11.58.23:794][  0]LogObj: 25794 objects as part of root set at end of initial load.
+[2015.07.07-11.58.23:794][  0]LogUObjectAllocator: 5200096 out of 0 bytes used by permanent object pool.
+[2015.07.07-11.58.23:938][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2015.07.07-11.58.23:938][  0]LogEngine: Initializing Engine...
+[2015.07.07-11.58.23:941][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.07-11.58.25:288][  0]LogHMD: SteamVR initialized.  Driver: oculus  Display: 206D5J030W8G
+[2015.07.07-11.58.25:391][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.07-11.58.25:403][  0]LogInit: FAudioDevice initialized.
+[2015.07.07-11.58.25:407][  0]LogInit: Texture streaming: Disabled
+[2015.07.07-11.58.25:486][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'Code')
+[2015.07.07-11.58.25:489][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCTheMainMap?Name=Player
+[2015.07.07-11.58.25:489][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCTheMainMap?Name=Player
+[2015.07.07-11.58.25:502][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C72D7045E0
+[2015.07.07-11.58.25:512][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.07-11.58.25:512][  0]LogMemory: Process Physical Memory: 360.68 MB used, 360.68 MB peak
+[2015.07.07-11.58.25:512][  0]LogMemory: Process Virtual Memory: 291.72 MB used, 294.26 MB peak
+[2015.07.07-11.58.25:512][  0]LogMemory: Physical Memory: 4184.67 MB used, 16336.84 MB total
+[2015.07.07-11.58.25:512][  0]LogMemory: Virtual Memory: 828.29 MB used, 134217728.00 MB total
+[2015.07.07-11.58.25:512][  0]LogMemory: 
+[2015.07.07-11.58.25:512][  0]Allocator Stats for TBB: (not implemented)
+[2015.07.07-11.58.30:271][  0]LogAIModule: Creating AISystem for world TheMainMap
+[2015.07.07-11.58.30:305][  0]LogWorld: Game class is 'ilijaGame_C'
+[2015.07.07-11.58.30:328][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCTheMainMap.TheMainMap up for play (max tick rate 0) at 2015.07.07-13.58.30
+[2015.07.07-11.58.30:328][  0]LogWorld: Bringing up level for play took: 0.013925
+[2015.07.07-11.58.30:331][  0]LogInit:Display: Game Engine Initialized.
+[2015.07.07-11.58.30:585][  0]LogAssetRegistry: FAssetRegistry took 0.0002 seconds to start up
+[2015.07.07-11.58.30:585][  0]LogLoad: Full Startup: 15.33 seconds (BP compile: 0.93 seconds)
+[2015.07.07-11.58.30:596][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2015.07.07-11.58.30:802][  2]LogRenderer: Reallocating scene render targets to support 1736x976 (Frame:2).
+[2015.07.07-11.58.51:732][649]LogBlueprintUserMessages: Activated Main Menu
+[2015.07.07-11.58.52:470][703]LogBlueprintUserMessages: Full menu reset
+[2015.07.07-11.58.53:804][803]LogRenderer: Reallocating scene render targets to support 2600x1464 (Frame:1804).
+[2015.07.07-11.58.53:862][804]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 435/400 MB (ok in editor, bad on fixed memory platform)
+[2015.07.07-11.59.01:864][101]LogBlueprintUserMessages: Full menu reset
+[2015.07.07-11.59.02:770][135]LogBlueprintUserMessages: Activated Main Menu
+[2015.07.07-11.59.07:105][276]LogBlueprintUserMessages: 0
+[2015.07.07-11.59.11:954][512]LogBlueprintUserMessages: 1
+[2015.07.07-11.59.11:954][512]LogBlueprintUserMessages: 1
+[2015.07.07-11.59.11:954][512]LogBlueprintUserMessages: EVENT CAUGHT
+[2015.07.07-11.59.11:954][512]LogBlueprintUserMessages: PRESSED
+[2015.07.07-12.00.51:094][ 32]LogBlueprintUserMessages: 2
+[2015.07.07-12.00.51:094][ 32]LogBlueprintUserMessages: 2
+[2015.07.07-12.00.51:094][ 32]LogBlueprintUserMessages: EVENT CAUGHT
+[2015.07.07-12.00.51:094][ 32]LogBlueprintUserMessages: PRESSED
+[2015.07.07-12.00.53:093][105]LogBlueprintUserMessages: 3
+[2015.07.07-12.00.53:094][105]LogBlueprintUserMessages: 3
+[2015.07.07-12.00.53:094][105]LogBlueprintUserMessages: EVENT CAUGHT
+[2015.07.07-12.00.53:094][105]LogBlueprintUserMessages: PRESSED
+[2015.07.07-12.00.55:080][179]LogBlueprintUserMessages: 4
+[2015.07.07-12.00.55:081][179]LogBlueprintUserMessages: 4
+[2015.07.07-12.00.55:081][179]LogBlueprintUserMessages: EVENT CAUGHT
+[2015.07.07-12.00.55:081][179]LogBlueprintUserMessages: PRESSED
+[2015.07.07-12.00.57:107][255]LogBlueprintUserMessages: 5
+[2015.07.07-12.00.57:107][255]LogBlueprintUserMessages: 5
+[2015.07.07-12.00.57:107][255]LogBlueprintUserMessages: EVENT CAUGHT
+[2015.07.07-12.00.57:107][255]LogBlueprintUserMessages: PRESSED
+[2015.07.07-12.00.59:104][330]LogBlueprintUserMessages: 6
+[2015.07.07-12.00.59:104][330]LogBlueprintUserMessages: 6
+[2015.07.07-12.00.59:104][330]LogBlueprintUserMessages: EVENT CAUGHT
+[2015.07.07-12.00.59:104][330]LogBlueprintUserMessages: PRESSED
+[2015.07.07-12.01.01:091][404]LogBlueprintUserMessages: 7
+[2015.07.07-12.01.01:092][404]LogBlueprintUserMessages: 7
+[2015.07.07-12.01.01:092][404]LogBlueprintUserMessages: EVENT CAUGHT
+[2015.07.07-12.01.01:092][404]LogBlueprintUserMessages: PRESSED
+[2015.07.07-12.01.03:104][479]LogBlueprintUserMessages: 8
+[2015.07.07-12.01.03:104][479]LogBlueprintUserMessages: 8
+[2015.07.07-12.01.03:104][479]LogBlueprintUserMessages: EVENT CAUGHT
+[2015.07.07-12.01.03:104][479]LogBlueprintUserMessages: PRESSED
+[2015.07.07-12.01.05:104][554]LogBlueprintUserMessages: 9
+[2015.07.07-12.01.05:105][554]LogBlueprintUserMessages: 9
+[2015.07.07-12.01.05:105][554]LogBlueprintUserMessages: EVENT CAUGHT
+[2015.07.07-12.01.05:105][554]LogBlueprintUserMessages: PRESSED
+[2015.07.07-12.01.07:102][629]LogBlueprintUserMessages: 10
+[2015.07.07-12.01.07:102][629]LogBlueprintUserMessages: 10
+[2015.07.07-12.01.07:102][629]LogBlueprintUserMessages: EVENT CAUGHT
+[2015.07.07-12.01.07:103][629]LogBlueprintUserMessages: PRESSED
+[2015.07.07-12.01.09:103][704]LogBlueprintUserMessages: 11
+[2015.07.07-12.01.09:103][704]LogBlueprintUserMessages: 11
+[2015.07.07-12.01.09:103][704]LogBlueprintUserMessages: EVENT CAUGHT
+[2015.07.07-12.01.09:103][704]LogBlueprintUserMessages: PRESSED
+[2015.07.07-12.06.13:746][ 99]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.07-12.06.13:751][ 99]LogEngine: All Windows Closed
+[2015.07.07-12.06.13:751][ 99]LogWindows: FPlatformMisc::RequestExit(0)
+[2015.07.07-12.06.14:637][100]LogExit: Preparing to exit.
+[2015.07.07-12.06.14:674][100]LogExit: Game engine shut down
+[2015.07.07-12.06.14:674][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C72EA68CC0
+[2015.07.07-12.06.14:891][100]LogExit: Object subsystem successfully closed.
+[2015.07.07-12.06.14:956][100]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (109)
+[2015.07.07-12.06.14:962][100]LogModuleManager: Shutting down and abandoning module AssetRegistry (108)
+[2015.07.07-12.06.14:962][100]LogModuleManager: Shutting down and abandoning module AutomationWorker (107)
+[2015.07.07-12.06.14:962][100]LogModuleManager: Shutting down and abandoning module CharacterAI (106)
+[2015.07.07-12.06.14:962][100]LogModuleManager: Shutting down and abandoning module AITestSuite (105)
+[2015.07.07-12.06.14:962][100]LogModuleManager: Shutting down and abandoning module GameplayDebugger (104)
+[2015.07.07-12.06.14:962][100]LogModuleManager: Shutting down and abandoning module AIModule (103)
+[2015.07.07-12.06.14:962][100]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (102)
+[2015.07.07-12.06.14:962][100]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (101)
+[2015.07.07-12.06.14:962][100]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2015.07.07-12.06.14:965][100]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2015.07.07-12.06.14:965][100]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2015.07.07-12.06.14:965][100]LogModuleManager: Shutting down and abandoning module SteamVRController (97)
+[2015.07.07-12.06.14:965][100]LogModuleManager: Shutting down and abandoning module SteamVR (96)
+[2015.07.07-12.06.14:965][100]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (95)
+[2015.07.07-12.06.14:965][100]LogModuleManager: Shutting down and abandoning module OculusRift (94)
+[2015.07.07-12.06.14:965][100]LogModuleManager: Shutting down and abandoning module LeapMotionController (93)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (92)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module CableComponent (91)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module DesktopPlatform (90)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module HotReload (88)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (87)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module UObjectPlugin (86)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (85)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module SourceControl (84)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (83)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module BlankPlugin (82)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module ATLASrift (81)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.07-12.06.14:976][100]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.07-12.06.14:980][100]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.07-12.06.14:983][100]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.07-12.06.14:983][100]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.07-12.06.14:983][100]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.07-12.06.14:983][100]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.07-12.06.14:983][100]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.07-12.06.14:983][100]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.07-12.06.14:983][100]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.07-12.06.14:983][100]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.07-12.06.14:983][100]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.07-12.06.14:983][100]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.07-12.06.15:006][100]LogDerivedDataCache: Shutdown
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.07-12.06.15:006][100]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.07-12.06.15:007][100]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.07-12.06.15:007][100]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.07-12.06.15:007][100]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.07-12.06.15:007][100]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.07-12.06.15:007][100]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.07-12.06.15:008][100]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.07-12.06.15:008][100]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.07-12.06.15:008][100]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.07-12.06.15:008][100]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.07-12.06.15:008][100]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.07-12.06.15:008][100]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.07-12.06.15:008][100]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.07-12.06.15:008][100]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.07-12.06.15:008][100]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.07-12.06.15:008][100]LogExit: Exiting.
+[2015.07.07-12.06.15:010][100]Log file closed, 07/07/15 14:06:15
